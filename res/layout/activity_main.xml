@@ -16,14 +16,22 @@
         android:layout_centerHorizontal="true"
         android:src="@drawable/mainactivitypic" />
 
-    <ListView
-        android:id="@+id/mainScreenList"
+    <TextView
+        android:id="@+id/alarm_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_below="@+id/mainScreenPic"
-        android:layout_centerHorizontal="true"
-		android:clickable="true">
-    </ListView>
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:text="Set Alarm" />
+
+    <TextView
+        android:id="@+id/theme_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:text="Choose a theme" />
 
 </RelativeLayout>

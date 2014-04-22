@@ -9,30 +9,22 @@
     tools:context=".MainScreen" >
 
     <ImageView
-        android:id="@+id/mainScreenPic"
+        android:id="@+id/themeScreenPic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
         android:src="@drawable/mainactivitypic" />
 
-    <TextView
-        android:id="@+id/alarm_button"
+    <ListView
+        android:id="@+id/themeScreenList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/mainScreenPic"
-        android:clickable="true"
-        android:text="Set Alarm" />
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/themeScreenPic"
+        android:clickable="true" >
 
-    <TextView
-        android:id="@+id/theme_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/alarm_button"
-        android:layout_alignBottom="@+id/alarm_button"
-        android:layout_alignParentLeft="true"
-        android:clickable="true"
-        android:text="Choose a theme" />
+    </ListView>
 
 </RelativeLayout>

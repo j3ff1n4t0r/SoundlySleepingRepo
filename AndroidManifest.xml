@@ -26,10 +26,22 @@
             </intent-filter>
         </activity>
         
+        <!-- Theme Screen Activity -->
+        <activity
+            android:name="com.example.soundlysleeping.ThemeScreen"
+            android:configChanges="orientation" >
+        </activity>
+        
         <!-- Music Player Activity -->
         <activity
             android:name="com.example.soundlysleeping.MusicPlayer"
             android:configChanges="orientation" >
+        </activity>
+        
+        <!-- Alarm Screen Activity -->
+        <activity
+            android:name="com.example.soundlysleeping.AlarmScreen"
+            android:screenOrientation="portrait" >
         </activity>
 
     </application>
